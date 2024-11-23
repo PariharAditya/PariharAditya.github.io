@@ -27,8 +27,8 @@ body {
   background-color: #000;
   margin: 0;
   padding: 0;
-  background-image: url("../images/bg.png");
-  background-size: 70%;
+  background-image: url("../images/bg.jpg");
+  background-size: cover; /* Make the background image cover the entire screen */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Make background fixed during scroll */
@@ -96,7 +96,7 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
 }
